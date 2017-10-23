@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate.min.js"></script>
+<link rel="stylesheet" href="css/index.css">
+<style type="text/css">
+  .swiper-button-next, .swiper-button-prev{
+    height: 29px;
+  }
+</style>
+</head>
+
+<body>
+ <audio id="k_ring" preload="load" loop="loop">
+  <source type="audio/mpeg" src="back2.mp3">
+</audio>
+<div class="swiper-container" id="swiper-container-v">
+    <section class="poster_wrap load" id="load">
+    	  <div class="p_loading">
+    	    <div class="p_loading_logo"></div>
+    	    <p class="p_loading_tip">正在加载</p>
+    	  </div>
+  	</section>
+    <div class="swiper-wrapper">
+         <section class="swiper-slide swiper-slide-v1">
+         </section>
+         <section class="swiper-slide swiper-slide-v2">
+         </section>
+         <section class="swiper-slide swiper-slide-v3">
+           <div class="pageContainer">
+           </div>
+         </section>
+
+    </div>
+  <div class="arrow-box">
+     <img src="images/arrow_bottom.png" id="array">
+  </div>
+
+  <!-- <div class="swiper-pagination"></div>   -->
+</div>
+<script src="js/code.min.js"></script>
+<script>
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?90f83da8b1f70ac684c8aa92bcdbb56d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</body>
+</html>
